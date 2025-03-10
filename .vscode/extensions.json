@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "inferrinizzard.prettier-sql-vscode",
+        "peterhdd.dartgettersetter",
+        "peterfinal-remeinder.vscodeblocks"
+    ]
+}

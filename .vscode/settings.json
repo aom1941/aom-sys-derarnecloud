@@ -1,0 +1,8 @@
+{
+    "dotnetAcquisitionExtension.enablePreviewFeatures": true,
+    "dotnetAcquisitionExtension.existingDotnetPath": [
+        
+    ],
+    "inlineChat.finishOnType": true,
+    "inlineChat.lineEmptyHint": true
+}
