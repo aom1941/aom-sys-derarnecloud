@@ -16,7 +16,10 @@
                 "run",
                 "--unstable",
                 "--inspect-brk",
-                "--allow-all"
+                "--allow-read=${workspaceFolder}",
+                "--allow-write=${workspaceFolder}",
+                "--allow-net=localhost:9229",
+                "--allow-env=PATH,HOME"
             ],
             "attachSimplePort": 9229
         }

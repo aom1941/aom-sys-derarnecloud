@@ -1002,6 +1002,16 @@
 		"ghcr.io/roul/devcontainer-features/mise-rust:1": {},
 		"ghcr.io/roul/devcontainer-features/vault:1": {}
 	},
+	"runArgs": [
+		// Conservative defaults for safer local experimentation; adjust if your workload needs more resources.
+		"--cap-drop=ALL",
+		"--security-opt=no-new-privileges:true",
+		"--pids-limit=512",
+		"--memory=4g",
+		"--cpus=2"
+	],
+	"remoteUser": "node",
+	"containerUser": "node",
 	"customizations": {
 		"vscode": {
 			"extensions": [
