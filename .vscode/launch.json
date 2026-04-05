@@ -18,7 +18,7 @@
                 "--inspect-brk",
                 "--allow-read=${workspaceFolder}",
                 "--allow-write=${workspaceFolder}",
-                "--allow-net=127.0.0.1:9229,localhost:9229",
+                "--allow-net=localhost:9229",
                 "--allow-env=PATH,HOME"
             ],
             "attachSimplePort": 9229

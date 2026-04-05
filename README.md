@@ -7,7 +7,7 @@
 - Devcontainer läuft standardmäßig als non-root Benutzer (`node`).
 - Zusätzliche Container-Härtung aktiv: `no-new-privileges`, `cap-drop=ALL`, PID/CPU/RAM-Limits.
 
-## Security safeguards
+## Security precautions
 
 - Deno debug launch no longer uses `--allow-all`; it now uses restricted permissions for workspace/localhost only.
 - The devcontainer now runs as a non-root user (`node`) by default.
